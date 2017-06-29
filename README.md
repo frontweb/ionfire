@@ -2,6 +2,8 @@
 
 Ionic template app that can configure itself on-the-fly by downloading its content & structure from the Firebase database.
 
+[![IonFire Preview](https://s3-eu-west-1.amazonaws.com/fweb-public/ionfire-video-preview.png)](https://youtu.be/hbPHGyG8GZY)
+
 ## Installation
 
 ```bash
