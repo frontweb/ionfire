@@ -1,0 +1,27 @@
+feed-video {
+  .video-wrapper {
+    position: relative;
+    padding-bottom: 53.25%; /* maintains 16:9 aspect ratio */
+    padding-top: 25px;
+    height: 0;
+  }
+
+  .video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  .video-wrapper .icon-play::before {
+    position: absolute;
+    font-size: 60px;
+    opacity: 0.8;
+    color: rgb(56, 126, 245);
+    top: 50%;
+    left: 50%;
+    margin-top: -30px;
+    margin-left: -30px;
+  }
+}

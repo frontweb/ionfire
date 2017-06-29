@@ -1,0 +1,58 @@
+<ion-list>
+  <ion-card *ngFor="let item of data.items">
+    <div [ngSwitch]="item.type">
+
+      <!-- Wordpress post excerpt -->
+      <div *ngSwitchCase="'wordpress_post'">
+        <ion-card-header *ngIf="item.data?.title">
+          {{item.data.title}}
+        </ion-card-header>
+        <ion-card-content *ngIf="item.data?.excerpt">
+          <div [innerHTML]="cardContent(item.data.excerpt)"></div>
+        </ion-card-content>
+
+        <ion-row>
+          <!-- Published data -->
+          <ion-col center>
+            <ion-note class="published-at">{{item.publishedAt | timeAgo}}</ion-note>
+          </ion-col>
+
+          <!-- CTA button-->
+          <ion-col class="cta">
+            <button *ngIf="item.cta" (click)="pushDynamicPage(item.data.title, item.data.content)" ion-button outline small>
+              {{item.cta.label}} &raquo;
+            </button>
+          </ion-col>
+        </ion-row>
+      </div>
+
+      <!-- Generic feed template -->
+      <div *ngSwitchDefault>
+        <!-- Photo -->
+        <img *ngIf="item.data?.photoUrl" [src]="item.data.photoUrl" />
+
+        <!-- Video -->
+        <feed-video *ngIf="isVideo(item)" [videoUrl]="item.data.url"></feed-video>
+
+        <!-- Content -->
+        <ion-card-content *ngIf="item.data?.message">
+          <div [innerHTML]="cardContent(item.data.message)"></div>
+        </ion-card-content>
+
+        <ion-row>
+          <!-- Published data -->
+          <ion-col center>
+            <ion-note *ngIf="item.publishedAt" class="published-at">{{item.publishedAt | timeAgo}}</ion-note>
+          </ion-col>
+
+          <!-- CTA button-->
+          <ion-col class="cta">
+            <button *ngIf="item.cta" (click)="ctaClick(item.cta)" ion-button outline small>
+              {{item.cta.label}}
+            </button>
+          </ion-col>
+        </ion-row>
+      </div>
+    </div>
+  </ion-card>
+</ion-list>

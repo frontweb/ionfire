@@ -1,0 +1,24 @@
+<div [class]="appTheme()">
+  <div *ngIf="appStyles()" [innerHtml]="appStyles()" class="styles"></div>
+
+  <ion-menu [content]="content" type="reveal" class="side-menu" (ionOpen)="onSideMenuOpen()">
+    <ion-content>
+      <!-- Logo -->
+      <side-menu-logo [appName]="app?.name" [appLogo]="app?.sideMenu?.appLogo"></side-menu-logo>
+
+      <!-- Page links -->
+      <ion-list *ngIf="pages" class="page-links">
+        <button ion-item detail-none *ngFor="let page of pages" (click)="openPage(page)">
+          {{page.title}}
+        </button>
+      </ion-list>
+
+      <social-media-links [socialMediaLinks]="app?.sideMenu?.socialMediaLinks"></social-media-links>
+
+      <!-- Side menu footer -->
+      <side-menu-footer [appVersion]="'1.0.0'"></side-menu-footer>
+    </ion-content>
+  </ion-menu>
+
+  <ion-nav #content [root]="rootPage"></ion-nav>
+</div>

@@ -1,0 +1,28 @@
+@import "./ionic.functions";
+
+side-menu-logo {
+
+  .push-down {
+    margin-top: 1.5rem;
+  }
+
+  .app-name {
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: color($colors, text);
+  }
+
+  .app-logo {
+    text-align: center;
+    margin-top: 1rem;
+
+    img {
+      max-height: 7rem;
+    }
+  }
+
+  .tagline {
+    padding: 1rem 2rem;
+  }
+}

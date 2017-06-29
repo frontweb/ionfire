@@ -1,0 +1,29 @@
+{
+  "pages": [
+    {
+      "contentBlocks": [
+        {
+          "component": "HtmlBlock",
+          "data": {
+            "componentTemplate": "<ion-card><img src='http://ichef.bbci.co.uk/food/ic/food_16x9_506/recipes/chickenwithsataysauc_70986_16x9.jpg'> <ion-card-content> <ion-card-title>Chicken with satay sauce</ion-card-title> <p>Chicken satay is a party favourite, thread the chicken pieces onto soaked bamboo skewers to cook on the barbecue.</p></ion-card-content> </ion-card>   <ion-card><img src='http://ichef.bbci.co.uk/food/ic/food_16x9_506/recipes/chickenwithricearroz_92264_16x9.jpg'> <ion-card-content> <ion-card-title>Chicken with rice</ion-card-title> <p>This fabulous Spanish-inspired recipe is a handy way to use up the carcass and leftover meat from a roast chicken.</p></ion-card-content> </ion-card>"
+          }
+        }
+      ],
+      "showAsTab": false,
+      "title": "Chicken"
+    },
+    {
+      "contentBlocks": [
+        {
+          "component": "HtmlBlock",
+          "data": {
+            "componentTemplate": "<ion-card><img src='http://ichef.bbci.co.uk/food/ic/food_16x9_506/recipes/apricotandbrandychri_77766_16x9.jpg'> <ion-card-content> <ion-card-title>Apricot and brandy Christmas cake</ion-card-title> <p>A great cake to make close to Christmas because it doesn't need feeding.</p></ion-card-content></ion-card>"
+          }
+        }
+      ],
+      "showAsTab": false,
+      "title": "Cakes"
+    }
+  ],
+  "theme": "red"
+}

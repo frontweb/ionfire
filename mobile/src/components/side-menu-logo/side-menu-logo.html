@@ -1,0 +1,11 @@
+<div class="push-down">
+  <div *ngIf="appName" class="app-name">{{appName}}</div>
+
+  <div *ngIf="appLogo && appLogo.logoUrl" class="app-logo" >
+    <img [src]="appLogo.logoUrl"/>
+  </div>
+
+  <div *ngIf="appLogo && appLogo.tagline" class="tagline">
+    {{appLogo.tagline}}
+  </div>
+</div>

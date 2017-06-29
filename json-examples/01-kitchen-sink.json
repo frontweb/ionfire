@@ -1,0 +1,96 @@
+{
+  "pages": [
+    {
+      "contentBlocks": [
+        {
+          "component": "Feed",
+          "data": {
+            "items": [
+              {
+                "data": {
+                  "message": "New snickers now available in store",
+                  "photoUrl": "https://scontent.xx.fbcdn.net/v/t1.0-9/19029241_1363915270364317_2829337419073131851_n.jpg?oh=4331cc97818b23ce1e988022f48541d0&oe=59E02B3A"
+                },
+                "type": "photo"
+              },
+              {
+                "data": {
+                  "url": "https://www.youtube.com/watch?v=TOcMdGLmSdY"
+                },
+                "type": "video"
+              },
+              {
+                "data": {
+                  "excerpt": "MobiPromo launches interstitial ads support",
+                  "title": "MobiPromo Interstitial Ads",
+                  "url": "https://getmobipromo.com/blog/"
+                },
+                "type": "wordpress_post"
+              }
+            ]
+          }
+        }
+      ],
+      "iconName": "list",
+      "showAsTab": true,
+      "title": "News"
+    },
+    {
+      "contentBlocks": [
+        {
+          "component": "Albums",
+          "data": {
+            "items": [
+              {
+                "name": "Paintings",
+                "photos": [
+                  "http://peibusinessdirectory.net/wp-content/uploads/2015/03/PEI-Artists.jpg",
+                  "http://webneel.com/daily/sites/default/files/images/daily/11-2013/15-flower-paintings.jpg",
+                  "https://s-media-cache-ak0.pinimg.com/originals/f2/c3/9c/f2c39c1651d11f47c5a5f35f205663fa.jpg"
+                ]
+              },
+              {
+                "name": "Sports",
+                "photos": [
+                  "https://travel.jumia.com/blog/ng/wp-content/uploads/2016/01/bigstock-Four-Sports-a-lot-of-balls-an-50626115.jpg",
+                  "https://timedotcom.files.wordpress.com/2017/03/football-oakland-raiders1.jpg?quality=85",
+                  "http://www.ncl.ac.uk/nclsport/assets/photos/performance/football.jpg"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "iconName": "ios-images-outline",
+      "showAsTab": true,
+      "title": "Photos"
+    },
+    {
+      "contentBlocks": [
+        {
+          "component": "HtmlBlock",
+          "data": {
+            "componentTemplate": "<div padding>We are a web and mobile development agency with over 15 years experience.</div>"
+          }
+        }
+      ],
+      "iconName": "happy",
+      "showAsTab": true,
+      "title": "About"
+    }
+  ],
+  "sideMenu": {
+    "appLogo": {
+      "logoUrl": "https://s3-eu-west-1.amazonaws.com/fweb-public/ionfire_128.png",
+      "tagline": "Best no-coding realtime mobile app template"
+    },
+    "socialMediaLinks": {
+      "urls": [
+        "https://www.facebook.com/",
+        "https://www.instagram.com/",
+        "http://getmobipromo.com/"
+      ]
+    }
+  },
+  "styles": ".side-menu .content-ios, .side-menu .content-android { background: #ECF7FF; } .toolbar-background { background: linear-gradient(45deg, #3487C0, #4FC3F7); } .toolbar-title { color: white; } .content-ios, .content-md { background-color: #ECF7FF; } .bar-button-default-ios, .bar-button-default-md { color: #efefef; } .app-name { font-size: 2rem !important; } .tabs-ios .tabbar, .tabs-md .tabbar { background: #3487C0; } .tabs-ios .tab-button, .tabs-md .tab-button, .tabs-ios .tab-button-icon, .tabs-md .tab-button-icon { color: white; } .tab-button[aria-selected=true], .tabs-md .tab-button[aria-selected=true] .tab-button-icon, .tabs-ios .tab-button[aria-selected=true] .tab-button-icon { color: #FFEE58 !important; } "
+}

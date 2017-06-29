@@ -1,0 +1,17 @@
+albums {
+  ion-card {
+    position: relative;
+    text-align: center;
+  }
+
+  .card-title {
+    position: absolute;
+    top: 0;
+    font-size: 2.5rem;
+    font-weight: bold;
+    width: 100%;
+    color: #fff;
+    background: rgba(0,0,0,0.5);
+    padding: .3rem 0;
+  }
+}

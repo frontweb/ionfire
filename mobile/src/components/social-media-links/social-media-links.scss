@@ -1,0 +1,80 @@
+social-media-links {
+  i.fa {
+    display: inline-block;
+  }
+
+  .sharebutton.twitter {
+    background: #55acee;
+  }
+  .sharebutton.twitter:hover {
+    background: #147bc9;
+  }
+
+  .sharebutton.facebook:hover {
+    background: #1e2e4f;
+  }
+  .sharebutton.facebook {
+    background: #3b5998;
+  }
+
+  .sharebutton.google:hover {
+    background: #96271a;
+  }
+  .sharebutton.google {
+    background: #dd4b39;
+  }
+
+  .sharebutton.reddit:hover {
+    background: #2e669a;
+  }
+  .sharebutton.reddit {
+    background: #5f99cf;
+  }
+
+  .sharebutton.pinterest:hover {
+    background: #711419;
+  }
+  .sharebutton.pinterest {
+    background: #c8232c;
+  }
+
+  .sharebutton.linkedin:hover {
+    background: #06344a;
+  }
+  .sharebutton.linkedin {
+    background: #0e76a8;
+  }
+
+  .sharebutton.instagram {
+    background: #8a3ab9;
+  }
+
+  .sharebutton.website {
+    background: #607D8B;
+  }
+
+  .fa-website:before {
+    content: "";
+  }
+
+  .sharebutton {
+    display: block;
+    margin-top: 1rem;
+    padding: 1rem 0;
+    width: 100%;
+    max-width: 30rem;
+    border-radius: 90px;
+    background: #242424;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font: 400 12px 'Montserrat', 'Arial', Sans-Serif;
+    -webkit-transition: background 0.2s ease-in-out;
+    -moz-transition: background 0.2s ease-in-out;
+    transition: background 0.2s ease-in-out;
+
+    span {
+      margin-left: 1rem;
+    }
+  }
+}

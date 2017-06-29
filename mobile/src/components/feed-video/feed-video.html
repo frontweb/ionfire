@@ -1,0 +1,11 @@
+<div [ngSwitch]="platform" class="video-wrapper">
+    <!-- Youtube -->
+    <iframe *ngSwitchCase="'youtube'" [src]="iFrameUrlSafe" frameborder="0" allowfullscreen></iframe>
+
+    <!-- Vimeo -->
+    <iframe *ngSwitchCase="'vimeo'" [id]="'vimeoPlayer'+videoId" [src]="iFrameUrlSafe"></iframe>
+
+    <!-- Facebook -->
+    <iframe *ngSwitchCase="'facebook'" [src]="iFrameUrlSafe"
+             style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+</div>

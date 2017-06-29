@@ -1,0 +1,6 @@
+<ion-list>
+  <ion-card *ngFor="let item of data.items" (click)="onItemClick(item)">
+    <img *ngIf="item.photos" [src]="item.photos[0]" />
+    <div *ngIf="item.name" class="card-title">{{item.name}}</div>
+  </ion-card>
+</ion-list>

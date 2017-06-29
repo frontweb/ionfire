@@ -1,0 +1,21 @@
+<span [raw-styles]="page && page.styles"></span>
+
+<ion-header>
+  <ion-navbar>
+    <!-- Menu button -->
+    <button *ngIf="showSideMenuButton" ion-button menuToggle icon-only class="side-menu-button">
+      <ion-icon name='menu'></ion-icon>
+    </button>
+
+    <ion-title>{{page.title}}</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <!-- Display all content blocks -->
+  <div *ngIf="page.contentBlocks" [class]="pageCssClasses()">
+    <content-block *ngFor="let contentBlock of page.contentBlocks"
+                   [params]="contentBlock"
+                   [class]="blockCssClasses(contentBlock)"></content-block>
+  </div>
+</ion-content>

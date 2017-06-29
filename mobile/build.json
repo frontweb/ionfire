@@ -1,0 +1,11 @@
+{
+  "android": {
+    "release": {
+      "keystore": "android_release.keystore",
+      "storePassword": "",
+      "alias": "ionfire",
+      "password" : "",
+      "keystoreType": ""
+    }
+  }
+}

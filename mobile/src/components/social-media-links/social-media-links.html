@@ -1,0 +1,6 @@
+<div *ngIf="socialMediaLinks && socialMediaLinks.urls.length > 0" padding>
+  <a href="#" (click)="openUrl(url)" *ngFor="let url of socialMediaLinks.urls"
+     [class]="'sharebutton '+network(url)">
+    <span>{{network(url)}}</span>
+  </a>
+</div>

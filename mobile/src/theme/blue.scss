@@ -1,0 +1,36 @@
+.blue {
+  $base-color: #3487C0;
+
+  .toolbar-background {
+    background: $base-color;
+  }
+
+  .toolbar-title {
+    color: white;
+  }
+
+  .content-ios, .content-md {
+    background-color: #f4f4f4;
+  }
+
+  .bar-button-default-ios, .bar-button-default-md {
+    color: #efefef;
+  }
+
+  .tabs-ios .tabbar, .tabs-md .tabbar {
+    background: $base-color;
+  }
+
+  .tabs-ios .tab-button,
+  .tabs-md .tab-button,
+  .tabs-ios .tab-button-icon,
+  .tabs-md .tab-button-icon {
+    color: white;
+  }
+
+  .tab-button[aria-selected=true],
+  .tabs-md .tab-button[aria-selected=true] .tab-button-icon,
+  .tabs-ios .tab-button[aria-selected=true] .tab-button-icon {
+    color: #FFEE58 !important;
+  }
+}
