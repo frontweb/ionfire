@@ -47,3 +47,10 @@ $ ionic cordova platform add android
 ionic link # only once
 ionic upload
 ```
+
+# IonFire Pro
+
+There's also a Pro version, available for [purchase on CodeCanyon](https://codecanyon.net/item/ionfire-json-driven-mobile-app-template-with-ionic3-and-firebase-realtime-database/20140035).
+It includes:
+- Google Analytics integration
+- AdMob integration
