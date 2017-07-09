@@ -50,7 +50,7 @@ ionic upload
 
 # IonFire Pro
 
-There's also a Pro version, available for [purchase on CodeCanyon](https://codecanyon.net/item/ionfire-json-driven-mobile-app-template-with-ionic3-and-firebase-realtime-database/20140035).
+There's also a Pro version, available for [purchase on CodeCanyon](http://bit.ly/ionfire-cc).
 It includes:
 - Google Analytics integration
 - AdMob integration
